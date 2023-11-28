@@ -32,7 +32,7 @@ export const config = {
             },
             testnet: true,
         },
-        privyId:"PRIVY ID",
+        privyId:"clozhep2500gal50f4c2j9gan",
         zeroDevId:"ZERODEV ID",
         simpleCounter: "0x47A9064a8D242860ABb43FC8340B3680487CC088"
     },
@@ -69,7 +69,7 @@ export const config = {
             },
             testnet: true,
         },
-        privyId:"PRIVY ID",
+        privyId:"clozhep2500gal50f4c2j9gan",
         zeroDevId:"ZERODEV ID",
         simpleCounter: "0xA47789e8C1caC47Bd891e33C97cB3C6722037282"
     }
