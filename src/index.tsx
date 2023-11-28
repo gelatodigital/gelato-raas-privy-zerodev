@@ -6,7 +6,7 @@ import { PrivyProvider } from "@privy-io/react-auth";
 import { ZeroDevProvider } from "@zerodev/privy";
 import { config } from './components/App/constant';
 
-export const raasNetwork = "zKatana"
+export const raasNetwork = "opTestnet"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

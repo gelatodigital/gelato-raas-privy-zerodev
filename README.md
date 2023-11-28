@@ -1,6 +1,6 @@
 
 Saved
-# Gelato Raas -- Privy -- ZeroDev
+# Gelato Raas -- Privy -- ZeroDev --> Awesome ERC4337 Ux
 
 This project showcases how to use Privy together with ZeroDev on Gelato Raas in a React implementation.
 For the time being, this solution is available on zKatana and OpTestnet
