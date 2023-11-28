@@ -5,6 +5,9 @@ Saved
 This project showcases how to use Privy together with ZeroDev on Gelato Raas in a React implementation.
 For the time being, this solution is available on zKatana and OpTestnet
 
+[![Video Walkthrough](https://img.youtube.com/vi/zj5Cf0d84Wg/0.jpg)](https://youtu.be/zj5Cf0d84Wg)
+
+
 ### Config
 
 1) Selecting Gelato Raas
