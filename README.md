@@ -17,7 +17,7 @@ Please select in [index](/src/index.tsx#9) the Gelato Raas. Options are "zKatana
 Please go to [privy.io](https://privy.io) and request a ProjectId
 
 3) Getting  ProjectId
-Please go to [Zerodev dasboard](https://dashboard.zerodev.app/), create a Project for your Raas network, and get the ProjectId
+Please go to [Zerodev dashboard](https://dashboard.zerodev.app/), create a Project for your Raas network, and get the ProjectId
 
 4) Please paste these Ids into the [config](/src/constants.ts) file.
 
