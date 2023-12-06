@@ -1,6 +1,7 @@
+import { defineChain } from "viem-15";
 export const config = {
     zKatana: {
-        privyConfig: {
+        privyConfig: defineChain ({
             id: 1261120,
             network: "zkatana",
             name: "Astar ZKatana Testnet",
@@ -31,13 +32,13 @@ export const config = {
                 },
             },
             testnet: true,
-        },
+        }),
         privyId:"clozhep2500gal50f4c2j9gan",
         zeroDevId:"ZERODEV ID",
         simpleCounter: "0x47A9064a8D242860ABb43FC8340B3680487CC088"
     },
     opTestnet: {
-        privyConfig: {
+        privyConfig: defineChain ({
             id: 42069,
             network: "Op Testnet",
             name: "OP Testnet",
@@ -68,7 +69,7 @@ export const config = {
                 },
             },
             testnet: true,
-        },
+        }),
         privyId:"clozhep2500gal50f4c2j9gan",
         zeroDevId:"ZERODEV ID",
         simpleCounter: "0xA47789e8C1caC47Bd891e33C97cB3C6722037282"
@@ -77,4 +78,29 @@ export const config = {
 
 
 
-
+export const astarZKatana = defineChain({
+    id: 1261120,
+    name: "Astar zKatana",
+    network: "astarZKatana",
+    nativeCurrency: {
+      decimals: 18,
+      name: "Ether",
+      symbol: "ETH",
+    },
+    rpcUrls: {
+      default: {
+        http: ["https://rpc.zkatana.gelato.digital"],
+        webSocket: ["https://ws.zkatana.gelato.digital"],
+      },
+      public: {
+        http: ["https://rpc.zkatana.gelato.digital"],
+        webSocket: ["https://ws.zkatana.gelato.digital"],
+      },
+    },
+    blockExplorers: {
+      default: {
+        name: "Explorer",
+        url: "https://zkatana.blockscout.com",
+      },
+    },
+  });
